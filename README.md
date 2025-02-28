@@ -204,3 +204,15 @@ If you have any questions or want to learn about our experimental results, pleas
 
 1. Corresponding author: `zjuzhichen AT zju.edu.cn`
 2. Author: `yh_ch AT zju.edu.cn`
+
+## IDE.IA
+
+### Compile project for local maven repository
+
+```bash
+mvn -U clean install
+```
+
+```bash
+mvn install:install-file -Dfile=target/chatunitest-maven-plugin-2.0.0.jar -DgroupId=org.ifpb.ideia -DartifactId=chatunitest-maven-plugin -Dversion=2.0.0 -Dpackaging=jar
+```
