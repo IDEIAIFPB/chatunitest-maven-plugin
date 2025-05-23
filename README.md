@@ -214,5 +214,5 @@ mvn -U clean install
 ```
 
 ```bash
-mvn install:install-file -Dfile=target/chatunitest-maven-plugin-2.0.0.jar -DgroupId=org.ifpb.ideia -DartifactId=chatunitest-maven-plugin -Dversion=2.0.0 -Dpackaging=jar
+mvn install:install-file -Dfile=target/chatunitest-maven-plugin-2.1.1.jar -DgroupId=org.ifpb.ideia -DartifactId=chatunitest-maven-plugin -Dversion=2.1.1 -Dpackaging=jar
 ```
